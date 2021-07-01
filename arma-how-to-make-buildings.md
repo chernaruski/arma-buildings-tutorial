@@ -101,25 +101,25 @@ Here is my resource list:
 ## Creating PBR Textures yourself
 You can often use this method to speed things up or use it for minor detailed textures. The idea is to use a base color texture, usually made of high quality photos, and generate the rest of texture maps via software such as ShaderMap or Substance B2M.
 
-| ![Изображение с сайта ShaderMap](/assets/img/tex_1.png "ShaderMap") | 
+| ![Image from ShaderMap site](/assets/img/tex_1.png "ShaderMap") | 
 |:--:| 
-| *Изображение с сайта ShaderMap* |
+| *Image from ShaderMap site* |
 
 
-| ![Изображение с сайта substance3d.adobe.com](/assets/img/tex_2.png "substance3d.adobe.com") | 
+| ![Image from substance3d.adobe.com site](/assets/img/tex_2.png "substance3d.adobe.com") | 
 |:--:| 
-| *Изображение с сайта substance3d.adobe.com* |
+| *Image from substance3d.adobe.com site* |
 
 
-Пример моей текстуры, сделанной таким способом:
-| ![Моя текстура](/assets/img/tex_3.png "Моя текстура") | 
+This an example of my "handmade" texture:
+| ![My texture](/assets/img/tex_3.png "My texture") | 
 |:--:| 
-| *Моя текстура* |
+| *My texture* |
 
 
-| ![Моя текстура](/assets/img/tex_4.png "Моя текстура") | 
+| ![My Material Preview](/assets/img/tex_4.png "My Material Preview") | 
 |:--:| 
-| *Превью материала* |
+| *My Material Preview* |
 
 
 ## Изготовление PBR текстур для богатых и успешных
