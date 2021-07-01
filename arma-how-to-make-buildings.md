@@ -81,7 +81,7 @@ It's better to test some idea and/or functionality first than realize only in th
 
   
 # Planning
-For full-fledged planning, we need to go over comprehend the previous steps. At this stage, you need to plan how many parts your building will have, how many textures, prepare the textures folder and different textures, etc. Write step after step what you about to do.
+For full-fledged planning, we need to go over and fully comprehend the previous steps. At this stage, you need to plan how many parts your building will have, how many textures, prepare the textures folder and different textures, etc. Write step after step what you about to do.
 
 # Textures
 For good-looking materials, we need good textures. Properly looking material should have a base color map, normal map, roughness map (in Arma 3, roughness map needs to be converted into SMDI texture).
@@ -98,15 +98,15 @@ Here is my resource list:
 - [CGTrader](https://www.cgtrader.com/3d-models/textures)
 - [3ddd](https://3ddd.ru/3dmodels?cat=teksturi&subcat=teksturi_kirpich&page=1)
 
-## Изготовление PBR текстур для бедных
-Пусть название этого метода не смущает - это просто шутка. Зачастую можно воспользоваться этим способом для ускорения процесса или для не очень важных деталей. Суть способа - на основе текстуры, обычно сделанной из хороших фотографий сгенерировать необходимые дополнительные текстуры. Для этого можно воспользоваться программами типа ShaderMap или Substance B2M.
+## Creating PBR Textures yourself
+You can often use this method to speed things up or use it for minor detailed textures. The idea is to use a base color texture, usually made of high quality photos, and generate the rest of texture maps via software such as ShaderMap or Substance B2M.
 
-| ![Изображение с сайта ShaderMap](/assets/img/tex_1.png "Изображение с сайта ShaderMap") | 
+| ![Изображение с сайта ShaderMap](/assets/img/tex_1.png "ShaderMap") | 
 |:--:| 
 | *Изображение с сайта ShaderMap* |
 
 
-| ![Изображение с сайта substance3d.adobe.com](/assets/img/tex_2.png "Изображение с сайта substance3d.adobe.com") | 
+| ![Изображение с сайта substance3d.adobe.com](/assets/img/tex_2.png "substance3d.adobe.com") | 
 |:--:| 
 | *Изображение с сайта substance3d.adobe.com* |
 
