@@ -8,10 +8,11 @@ Also, it's not covering the use of different software such as Photoshop, Substan
 The main focus of this tutorial is a production pipeline for Arma 3 buildings modeling and the different nuances involved.
 
 
-# Инструменты
+# Tools
 
-В своей работе я использую следующие инструменты:
-- 3ds Max
+I work with the following tools:
+
+- 3ds Max / or any other 3D editor (Tho I work with 3dmax, and you will have to figure out equal features used in your editor)
 - Adobe Photoshop
 - Substance Painter
 - Marmoset Toolbag
@@ -19,17 +20,15 @@ The main focus of this tutorial is a production pipeline for Arma 3 buildings mo
 - PureRef
 - Arma Tools
 - Mikero Tools
-- Notepad++ / Другой нормальный текстовый редактор
+- Notepad++ / Any other proper text editor
 
-Вместо 3ds Max можно использовать любой другой 3D-редактор, но данное руководство не освещает работу в них.
+# References
 
-# Референсы
+The first thing to do is to gather as many references as possible. Photos that will be your inspiration, guide, and reminder of how things look in real life.
+I recommend using PureRef (www.pureref.com) for dumping & working with the references you find.
 
-Первое, что необходимо сделать - собрать как можно больше референсов - то, на что вы будете опираться при создании модели. 
-Для работы с референсами очень рекомендую программу PureRef https://www.pureref.com/
-
-## Чертежи
-При создании зданий наиболее ценным референсом являются чертежи. Зачастую их можно найти в свободном доступе, или за небольшую оплату.
+## Blueprints
+When modeling buildings, the most valuable reference is the blueprints. They can often be found for free all over the internet. 
 
 ![Name](/assets/img/refs_1.png "tooltip text")
 
