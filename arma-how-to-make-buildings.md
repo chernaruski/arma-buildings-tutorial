@@ -24,24 +24,22 @@ I work with the following tools:
 
 # References
 
-The first thing to do is to gather as many references as possible. Photos that will be your inspiration, guide, and reminder of how things look in real life.
+The first thing to do is to gather as many references as possible. References that will be your inspiration, guide, and reminder of how things look and feel in real life.
 I recommend using PureRef (www.pureref.com) for dumping & working with the references you find.
 
 ## Blueprints
 When modeling buildings, the most valuable reference is the blueprints (floor plans). They can often be found for free all over the internet. 
+My personal recommendation - https://vk.com/tiparh , a VK group where people have gathered A LOT of images and plans of the typical Soviet architecture. 
 
 ![Name](/assets/img/refs_1.png "tooltip text")
 ![Name](https://i.imgur.com/hjyTxy1.png "tooltip text")
 
 
+## Photos
+Find over the web or make as many reference photos of your own. Not necessarily the exact building you are modeling. Something similar should do too. You will need photos of the interior, exterior, roof, fundament, stairs. Basically, everything you can think of.
 
-От себя порекомендую группу, в которой авторы собрали невероятное количество чертежей и фотографий: https://vk.com/tiparh
-
-## Фотографии
-Найдите в интернете или сделайте самостоятельно как можно больше фотографий. Не обязательно искать только моделируемое здание - подойдут и похожие. Нужны фотографии снаружи, внутри, крыша, фундамент. Вообще все части здания. 
-
-## Документация
-Иногда удаётся найти проектную документацию на здание, где описаны материалы, размеры, высота и другая информация, которая может помочь при создании модели. 
+## Official Documentation
+Sometimes you can even find full design documentation for a building. These contain descriptions of materials used, dimensions, etc.
 
 ![Name](/assets/img/refs_4.png "tooltip text")
 
