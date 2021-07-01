@@ -49,25 +49,28 @@ But do not delude yourself. It usually takes more time to redo and prepare the s
 
 ![Name](/assets/img/refs_3.png "tooltip text")
 
-## Другие игры
-Вполне вероятно, что кто-то уже до вас моделировал и добавлял в игру такое же или похожее здание. При этом, он вероятно столкнулся с такими же проблемами, что и у нас - количество полигонов, оптимизация, текстуры и т.п. Очень полезно посмотреть, как такую задачу решали другие люди. Например, я иногда вдохновлялся моделями из Escape from Tarkov, т.к. у в моих работах был похожий сеттинг. Модели в игре давали хорошу отправную точку.
+## Other games
+It's possible, someone already modeled and used something similar or exactly the same model in the game. He probably had the same issues as you will - poly count, optimization, textures, etc. Use it. Check how other people tackled these problems. Get inspired by the look or overall setting.
 
 ![Name](/assets/img/refs_2.png "tooltip text")
 
-## Видео
-Представляете, в интернете есть чуваки, которые снимают обзоры на лифты. Или на подъезды, или здания. Это тоже может нам помочь в создании модели.
+## Video
+You won't believe it, but there are people who upload video reviews of elevators, house entrances, or buildings. This also can help us create a model.
 
-# Размеры и играбельность
-Следует помнить, что вы создаёте модель для игры, а не реального мира. Поэтому, иногда стоит отходить от чертежей и реальных размеров в угоду геймплею. Например, иногда по чертежам дверной проём должен быть всего 80 см. В такой проём игровой персонаж просто не пройдёт. Смело изменяйте планировку, если "реальная по чертежам" будет неиграбельная. 
+# Size and Playability
+You must remember, you are creating a game model and not real life. Therefore, sometimes you will have to make a wise decision about the real dimensions and the one you will need in the game.
 
-Лично я для себя вывел следующие стандартные размеры и ограничения:
-- Двери: Ширина 100-120 см, Высота 200-220 см
-- Ширина корридора или лестничного пролёта: минимум 150 см
-- Высота потолков в жилых многоэтажных зданиях: 270-300 см
+For example, sometimes, the blueprint says the door frame should be only 80 cm.  In-game, there is no way player character can pass through that. Do not follow the blueprint blindly. Adjust it accordingly if you see that the real dimensions are not playable.
 
-Для подбора размеров я изготовил небольшой "тестер", который поможет прикинуть нужные размеры\высоты.
+From my experience, I found out that these standard dimensions and limitations are the best:
 
-# Прототип
+Doors: Width 100-120cm. Height 200-220cm.
+Corridors or staircase: Width 150cm. minimum.
+Ceilings: Height 270-300cm.
+
+ I've created a simple dimensioning "test" that helps estimate the correct dimensions.
+
+# Prototype
 Для того, чтобы убедиться, что задуманное будет работать как надо - нужно сделать быстрый прототип, без текстур с минимальной геометрией. Это избавит от ошибок в будущем. Если вы обнаружите, что что-то не так на позднем этапе - после создания маски, запекания света и т.п. - исправление будет стоить больших затрат. Возьмём для примера тот же проем двери в 80 см. Обнаружив в самом конце, что персонаж не проходит в двери, вам придётся править геометрию, заново натягивать текстуры на стены (т.к. они скорее всего "поедут"), перезапекать свет и много чего ещё. Лучше в начале грубо накидать прототип, даже из простых боксов, чтобы оценить задумку и её будущую играбельность. Можно будет побегать по зданию, занять позицию у окон. Возможно, на ум придёт какая-то умная мысль, которая изменит первоначальную задумку.
 
 Лучше проверить какую-то теорию заранее, чем в конце пути понять, что она не работает. Например, как я проверял получится ли вылезти из окна на трубу и дойти до лестницы:
