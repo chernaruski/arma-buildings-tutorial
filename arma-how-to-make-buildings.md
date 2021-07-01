@@ -1,9 +1,12 @@
-# Вступление
-Данное руководство не претендует на best practice по созданию ассетов для Arma, а также других аспектов моделирования/текстурирования/чего-угодно и было написано дилетантом. Я лишь делюсь своими знаниями, которые я приобрел, создавая ассеты зданий для Arma не будучи профессиональным 3D-художником в свое свободное время. Что-то из описаного может быть не оптимальным, не правильным и порочным - поэтому советую изучать также другие источники и официальную документацию.
+# Introduction
 
-Также, данное руководство не освещает какие-то базовые вопросы создания 3D-моделей и предполагает, что у читателя есть какие-то знания и представления об этом процессе. Основной фокус сделан на пайплайне производства зданий для Arma 3 и различных нюансах, связанных с этим. 
+The following tutorial isn't a candidate for the best practice of creating Arma assets or any other aspect of modeling/texturing/etc. It was written as-is from a personal amateur experience. I'm just passing the knowledge I've gathered, creating Arma building assets without being a professional 3d artist in my free time. Some things in this tutorial might not be optimal or correct. Therefore I insist that you still dive into official documentation and other information sources and check for additional info.
 
-Также, не освещаются вопросы использования других программ, таких как Photoshop, Substance Painter, Marmoset Toolbag и других. Даны лишь краткие (или не очень) описания необходимых действий.
+In addition, the following tutorial is not covering the basics of 3D modeling, and it assumes readers have some degree of understanding and idea of its process. 
+Also, it's not covering the use of different software such as Photoshop, Substance Painter, Marmoset Toolbag, and others. It only mentions few actions involved.
+
+The main focus of this tutorial is a production pipeline for Arma 3 buildings modeling and the different nuances involved.
+
 
 # Инструменты
 
