@@ -43,8 +43,9 @@ Sometimes you can even find full design documentation for a building. These cont
 
 ![Name](/assets/img/refs_4.png "tooltip text")
 
-## 3D модели
-Возможно, получится найти уже готовые модели в интернете. Возможно даже можно будет их купить. Но не стоит обольщаться, скорее всего вам потребуется значительно переделать исходную модель, либо она вообще не подойдёт для портирования в Arma. Но как референсы - они будут очень полезны как интерактивный чертеж.
+## 3D models
+You might find already modeled buildings at 3D model resources/marketplaces.You might even be able to afford/buy them. 
+But do not delude yourself. It usually takes more time to redo and prepare the source model for Arma import, if possible at all. As references tho, they are pretty good and will be an additional "interactive blueprint."
 
 ![Name](/assets/img/refs_3.png "tooltip text")
 
