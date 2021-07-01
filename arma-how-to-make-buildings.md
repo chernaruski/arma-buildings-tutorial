@@ -193,9 +193,9 @@ ADSHQ adds baked light, which gives the model a more realistic look
 |:--:| 
 | *In game* |
 
-О влиянии освещения будет рассказано далее.
+We will discuss the lighting effect later.
 
-Сам мультиматериал (файл .rvmat), использованный в примере:
+Multimaterial rvmat (.rvmat), looks like this:
 ```cpp
 ambient[]={0.7,0.7,0.7,1};
 diffuse[]={0.4,0.4,0.4,1};
@@ -241,17 +241,17 @@ class Stage9 { texture="buildings_tutorial\multimat_demo\data\texture_mc.paa"; t
 class Stage10 { texture="buildings_tutorial\multimat_demo\data\light_gi_adshq.paa"; texGen = 4; };
 ```
 
-## Базовые техники и принципы
-- Учесть удобство при экспорте/импорте - разделять модель на селекшены!
-- Декали
-- Моделируем сначала уникальные части, дубликаты заливаем красным для корректной запечки
-- Заранее продумываем части модели для мультиматериала
-- Если площадь большая - то в мультиматериале может быть меньше 4 текстур
-- Иметь ввиду уменьшение количества материалов в лодах разрешения
-- Собираем всё после запечки и маски
-- Нужно иметь ввиду модель под землей, метра полтора
-- Оптимизация модель 1 текстурой на ближних лодах не пройдёт
-- Разные цвета маски не должны соприкасаться! UV-шелы отдельных ид - отдельно!
+## Basic techniques and principles
+- Consider workflow convenience when importing/exporting. It's recommended to divide the model into selections.
+- Decals.
+- First, we model unique parts. Duplicate parts we fill with red for proper baking.
+- In advance, we think of the model's parts that will be using multimaterial.
+- If the area is large, then the multimaterial can have less than 4 textures.
+- Keep in mind the reduction of materials used at higher LODs.
+- We combine the sections after baking and mask.
+- Don't forget the bottom part, should have at least 1.5m that goes into the ground. 
+- Optimizing the model with a single texture at the nearest LODs won't work.
+- Different colors of the mask should not touch each other! Separate UV shells of individual IDs.
 
 ## Разделение модели на части
 
