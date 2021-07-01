@@ -28,9 +28,12 @@ The first thing to do is to gather as many references as possible. Photos that w
 I recommend using PureRef (www.pureref.com) for dumping & working with the references you find.
 
 ## Blueprints
-When modeling buildings, the most valuable reference is the blueprints. They can often be found for free all over the internet. 
+When modeling buildings, the most valuable reference is the blueprints (floor plans). They can often be found for free all over the internet. 
 
 ![Name](/assets/img/refs_1.png "tooltip text")
+![Name](https://i.imgur.com/hjyTxy1.png "tooltip text")
+
+
 
 От себя порекомендую группу, в которой авторы собрали невероятное количество чертежей и фотографий: https://vk.com/tiparh
 
