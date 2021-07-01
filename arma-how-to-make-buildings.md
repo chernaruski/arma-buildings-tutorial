@@ -36,7 +36,7 @@ My personal recommendation - https://vk.com/tiparh , a VK group where people hav
 
 
 ## Photos
-Find over the web or make as many reference photos of your own. Not necessarily the exact building you are modeling. Something similar should do too. You will need photos of the interior, exterior, roof, fundament, stairs. Basically, everything you can think of.
+Search the web or make as many reference photos of your own and use it. Not necessarily the exact building you are modeling. Something similar should do too. You will need photos of the interior, exterior, roof, fundament, stairs. Basically, everything you can think of.
 
 ## Official Documentation
 Sometimes you can even find full design documentation for a building. These contain descriptions of materials used, dimensions, etc.
@@ -79,17 +79,18 @@ It's better to test some idea and/or functionality first than realize only in th
 
 [![](https://res.cloudinary.com/marcomontalbano/image/upload/v1624684875/video_to_markdown/images/youtube--UZkex4OHzUg-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=UZkex4OHzUg "")
 
-Т.к. для прототипа требуются некоторые знания из следующих пунктов, то в учебных целях мы его пропустим.
   
-# Планирование
-Для полноценного планирования также требуются знания из следующих пунктов. На этом этапе нужно запланировать из скольки частей будет состоять здание, какое количество текстур понадобится, подготовить структуру папок, текстуры и т.п. Нужно расписать поэтапно что вы будете делать. 
+# Planning
+For full-fledged planning, we need to go over comprehend the previous steps. At this stage, you need to plan how many parts your building will have, how many textures, prepare the textures folder and different textures, etc. Write step after step what you about to do.
 
-# Текстуры
-Для хорошего материала нужны хорошие текстуры. Полноценный материал содержит текстуры с базовым цветом, нормалями, roughness (как там это по-русски сказать?). В Arma 3 roughness нужно превратить в SMDI текстуру.
-Получить текстуры для своего проекта можно тремя основными способами:
+# Textures
+For good-looking materials, we need good textures. Properly looking material should have a base color map, normal map, roughness map (in Arma 3, roughness map needs to be converted into SMDI texture).
 
-## Покупка PBR текстур
-Самый простой способ. Почти всегда интересующую вас текстуру можно найти на различных сайтах за определенную плату. Обычно там они уже хорошего качества. Вот мой список ресурсов, откуда я беру текстуры:
+There are three main ways to get the textures for your project :
+
+## Buying PBR textures
+This is the easiest way. Almost any texture you might be interested in can be found on various sites for a fee (some for free). Usually, they are already of good quality.
+Here is my resource list:
 - [Textures.com](https://www.textures.com/)
 - [Adobe Substance 3D Assets](https://substance3d.adobe.com/assets/)
 - [Quixel Megascans](https://quixel.com/megascans/home/)
