@@ -55,7 +55,7 @@ It's possible, someone already modeled and used something similar or exactly the
 ![Name](/assets/img/refs_2.png "tooltip text")
 
 ## Video
-You won't believe it, but there are people who upload video reviews of elevators, house entrances, or buildings. This also can help us create a model.
+You won't believe it, but there are people who upload video reviews of elevators, house entrances, or buildings. This also can help us create a nice looking model.
 
 # Size and Playability
 You must remember, you are creating a game model and not real life. Therefore, sometimes you will have to make a wise decision about the real dimensions and the one you will need in the game.
@@ -68,12 +68,14 @@ Doors: Width 100-120cm. Height 200-220cm.
 Corridors or staircase: Width 150cm. minimum.
 Ceilings: Height 270-300cm.
 
- I've created a simple dimensioning "test" that helps estimate the correct dimensions.
+I've created a simple dimensioning "test" that helps estimate the correct dimensions.
 
 # Prototype
-Для того, чтобы убедиться, что задуманное будет работать как надо - нужно сделать быстрый прототип, без текстур с минимальной геометрией. Это избавит от ошибок в будущем. Если вы обнаружите, что что-то не так на позднем этапе - после создания маски, запекания света и т.п. - исправление будет стоить больших затрат. Возьмём для примера тот же проем двери в 80 см. Обнаружив в самом конце, что персонаж не проходит в двери, вам придётся править геометрию, заново натягивать текстуры на стены (т.к. они скорее всего "поедут"), перезапекать свет и много чего ещё. Лучше в начале грубо накидать прототип, даже из простых боксов, чтобы оценить задумку и её будущую играбельность. Можно будет побегать по зданию, занять позицию у окон. Возможно, на ум придёт какая-то умная мысль, которая изменит первоначальную задумку.
+First, we need to make sure everything we planned works in-game properly. We create a quick prototype with basic geometry, no textures. This will make our lives much easier. Otherwise, if you happen and find mistakes at the advanced modeling stages (after the baking of light, masks, etc.), it will cost you a lot of effort and time to fix it.
 
-Лучше проверить какую-то теорию заранее, чем в конце пути понять, что она не работает. Например, как я проверял получится ли вылезти из окна на трубу и дойти до лестницы:
+For example, let us focus on the 80cm—door frame I've mentioned earlier. If you find out that the game character can't go through it at the very end, you will have to adjust the geometry, redo the textures accordingly, bake the light again, etc. It's wise to have a rough prototype, even from basic blocks/boxes, to see how it feels and plays, how the character moves inside the building, how he can take positions by the windows, etc. These first steps are essential and sometimes even can change the initial idea.
+
+It's better to test some idea and/or functionality first than realize only in the end that it doesn't work. For example, this is how I've tested if a player can get out of the window, walk the pipe and climb up to the roof using the ladder:
 
 [![](https://res.cloudinary.com/marcomontalbano/image/upload/v1624684875/video_to_markdown/images/youtube--UZkex4OHzUg-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=UZkex4OHzUg "")
 
