@@ -98,7 +98,7 @@ Here is my resource list:
 - [CGTrader](https://www.cgtrader.com/3d-models/textures)
 - [3ddd](https://3ddd.ru/3dmodels?cat=teksturi&subcat=teksturi_kirpich&page=1)
 
-## Creating PBR Textures yourself
+## Generating PBR Textures 
 You can often use this method to speed things up or use it for minor detailed textures. The idea is to use a base color texture, usually made of high quality photos, and generate the rest of texture maps via software such as ShaderMap or Substance B2M.
 
 | ![Image from ShaderMap site](/assets/img/tex_1.png "ShaderMap") | 
@@ -122,70 +122,76 @@ This an example of my "handmade" texture:
 | *My Material Preview* |
 
 
-## Изготовление PBR текстур для богатых и успешных
-Если не удалось найти необходимой текстуры вышеуказанными способами, их можно нарисовать. Как любую другую текстуру для любой модели, например, в SubstancePainter. 
+## Creating PBR Textures
+If you couldn't find any required textures using the above method, you can create them in Substance Painter.
 
-Например, таким образом я сделал текстуру для плит здания:
-| [![Текстура плит для здания](https://res.cloudinary.com/marcomontalbano/image/upload/v1624625868/video_to_markdown/images/youtube--A3mcL3jteS0-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=A3mcL3jteS0 "Текстура плит для здания") | 
+For example, this is how I made a texture for the building tiles:
+| [![Building tiles texture](https://res.cloudinary.com/marcomontalbano/image/upload/v1624625868/video_to_markdown/images/youtube--A3mcL3jteS0-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=A3mcL3jteS0 "Building tiles texture") | 
 |:--:| 
-| *Текстура плит для здания* |
+| *Building tiles texture* |
 
 
-А вот пытался нарисовать поврежденное стекло:
-| ![Текстура поврежденного стекла](/assets/img/tex_5.png "Текстура поврежденного стекла") | 
+And in this one I tried to paint a damaged window glass:
+| ![Damaged window glass texture](/assets/img/tex_5.png "Damaged window glass texture") | 
 |:--:| 
-| *Текстура поврежденного стекла* |
+| *Damaged window glass texture* |
 
 
-## Использование стандартных текстур
-В конце-концов, можно воспользоваться уже готовыми стандартными текстурами прямо из игры.
+## Using standard textures
+In the end, you can always use the standard textures we already have in-game.
 
-# Моделирование
-## О влиянии мультиматериала на процесс моделирования зданий
-Мультиматериал - это тип материала, с помощью которого рекомендуется красить здания. Ссылки на вики: https://community.bistudio.com/wiki/Multimaterial
-Если вы ничего не поняли из этого документа, то ничего страшного - я тоже. На производительность и FPS очень большую роль играет количество материалов на модели. Очень грубо говоря, это количество разных текстур. Мультиматериал позволяет использовать 4 текстуры как 1 материал, тем самым внося значительную оптимизацию. Следует приложить все усилия, чтобы минимизировать количество материалов на модели. Поэтому, с самого начала нужно учитывать этот фактор. Для основной модели здания нужно использовать мультиматериал, для деталей нужно собирать атласы текстур, стремясь покрасить модель минимально возможным количеством текстур.
+# Modeling
+## The impact of multimaterial on the building modeling process.
+Multimaterial is the type of material the game engine applies according to how we colored the building. WIKI: https://community.bistudio.com/wiki/Multimaterial
+If you did not understand anything from the official documentation, don't sweat about it, nor do I.
 
-Для начала наглядно продемонстрирую, как это работает.
+The amount of materials used plays a significant role in the model's performance and the game's FPS. Simply put, this is the number of different textures we will be using. Multimaterial allows 4 textures to be used as 1 material, thus making significant optimization improvements. Our goal is to minimize the number of materials used.
+So it is important, right from the beginning, to take this into account.
 
-При использовании мультиматериала необходимо создать на модели второй UV-канал:
-| ![Второй UV-канал](/assets/img/multimat_7.png "Второй UV-канал") | 
+For the main building model, we must use multimaterial. For details, we need to compile a texture atlas. Thriving to paint our model with the minimal number of textures.
+
+
+First, I will demonstrate how it works.
+
+When using multimaterial, you need to create a second UV channel on the model:
+| ![second UV channel](/assets/img/multimat_7.png "second UV channel") | 
 |:--:| 
-| *Второй UV-канал* |
+| *second UV channel* |
 
-| ![Маска](/assets/img/multimat_3.png "Маска") | 
+| ![Mask](/assets/img/multimat_3.png "Mask") | 
 |:--:| 
-| *Маска* |
+| *Mask* |
 
-| ![Маска](/assets/img/multimat_1.png "Маска") | 
+| ![Mask](/assets/img/multimat_1.png "Mask") | 
 |:--:| 
-| *Маска на модели* |
+| *Mask for the model* |
 
-| ![Маска](/assets/img/multimat_2.png "Маска") | 
+| ![Mask](/assets/img/multimat_2.png "Mask") | 
 |:--:| 
-| *Результат* |
+| *Results* |
 
-Добавим макротекстуру (не обращайте внимания на художественную сторону, это просто демонстрация): 
+Let's add a macro texture (ignore the artistic side of things, this is just a demo):
 
-| ![Макротекстура](/assets/img/multimat_4.png "Макротекстура") | 
+| ![Macro texture](/assets/img/multimat_4.png "Macro texture") | 
 |:--:| 
-| *Макротекстура* |
+| *Macro texture* |
 
-| ![Макротекстура](/assets/img/multimat_5.png "Макротекстура") | 
+| ![Macro texture](/assets/img/multimat_5.png "Macro texture") | 
 |:--:| 
-| *Результат с макротекстурой* |
+| *Results with macro texture* |
 
-| ![Макротекстура](/assets/img/multimat_6.png "Макротекстура") | 
+| ![Macro texture](/assets/img/multimat_6.png "Macro texture") | 
 |:--:| 
-| *Результат с макротекстурой* |
+| *Results with macro texture* |
 
-Добавляет картину запеченный свет, который придаёт модели более реальный вид
-| ![Текстура ADSHQ](/assets/img/multimat_8.png "Текстура ADSHQ") | 
+ADSHQ adds baked light, which gives the model a more realistic look
+| ![ADSHQ Texture](/assets/img/multimat_8.png "ADSHQ Texture") | 
 |:--:| 
-| *Текстура ADSHQ (освещение модели)* |
+| *ADSHQ Texture (model lighting)* |
 
-| ![Запихнул в игру](/assets/img/multimat_9.png "Запихнул в игру") | 
+| ![In game](/assets/img/multimat_9.png "In game") | 
 |:--:| 
-| *Запихнул в игру* |
+| *In game* |
 
 О влиянии освещения будет рассказано далее.
 
